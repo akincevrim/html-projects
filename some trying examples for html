@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8" />
+    <title> ilk html</title>
+</head>
+<body>
+    <h1>başlık 1</h1>
+    <h2>başlık 2</h2>
+    <h3>başlık 3</h3>
+    <h4>başlık 4</h4>
+    <P>bu bir paragraf</P>
+<ul style="list-style-type: square;">
+    <li>liste1</li>
+    <li>liste2</li>
+    <li>liste3</li>
+        <ol TYPE="A">
+            <li>alt liste1</li>
+            <li>alt liste2</li>
+            <li>alt liste3</li>
+        </ol>
+
+</ul>
+</body>
+
+
+</html>
