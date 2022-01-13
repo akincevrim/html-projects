@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>formlar</title>  
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css bağlama.css">
+    </head>
+    <body>
+        <form action=""method="get">
+        <h1>giriş</h1>
+       <h2>lütfen eposta ve şifre giriniz</h2> 
+       <input type="email" name="kullanıcı email" value="eposta buraya">
+       <input type="password" name="şifrenizi giriniz"value="">
+       <input type="submit"name=""value="gönder">
+       <h3>hizmetten memnun kaldınızmı</h3>
+       <label for="evet"evet></label>
+       <input type="radio"id="evet"name="seçenek"value="1">
+       <label for="hayır"hayır></label>
+       <input type="radio"id="hayır"name="seçenek"value="0">
+       <br>
+       <label for="derece"derecelendir></label>
+       <select name="derece">
+        <option value="3"çok iyi></option>
+        <option value="2" orta></option>
+        <option value="1"kötü></option>
+
+       </select>
+       <br>
+       <label for="textalan"diğer yorumunuz></label>
+       <textarea name="textalan"cols="4" rows="40"></textarea>
+       <input type="submit"name=""value="gönder">
+    </form>
+    </body>
+</html>
